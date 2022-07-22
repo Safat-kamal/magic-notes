@@ -7,7 +7,7 @@ const Signup = (props) => {
   const signup =  async (e)=>{
     e.preventDefault();
     // API CALL
-    const url = `https://magic---notes.herokuapp.com/api/auth/CreateUser`;
+    const url = `http://localhost:8000/api/auth/CreateUser`;
     const response = await fetch(url, {
         method: 'POST',
         headers: {

@@ -8,7 +8,7 @@ const Login = (props) => {
     const login = async (e)=>{
         e.preventDefault();
          // API CALL
-        const url = `https://magic---notes.herokuapp.com/api/auth/login`;
+        const url = `http://localhost:8000/api/auth/login`;
         const response = await fetch(url, {
             method: 'POST',
             headers: {

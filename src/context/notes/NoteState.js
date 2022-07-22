@@ -2,7 +2,7 @@ import React,{ useState } from 'react';
 import NoteContext from './noteContext';
 
 const NoteState = (props)=>{
-    const host = "https://magic---notes.herokuapp.com";
+    const host = "http://localhost:8000";
     const InitialNotes = [];
     const [notes,setNotes] = useState(InitialNotes);
     
